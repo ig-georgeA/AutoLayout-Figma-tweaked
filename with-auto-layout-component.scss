@@ -1,0 +1,485 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.with-auto-layout {
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.navigation-section {
+  background-color: rgba(237, 237, 237, 1);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px 64px;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.navigation-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 1400px;
+}
+.branding {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+}
+.navigation-links {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.actions {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 18px;
+  position: relative;
+  
+  min-width: 50px;
+  min-height: 50px;
+}
+.frame-57 {
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+}
+.frame-56 {
+  background-color: rgba(66, 66, 66, 1);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+}
+.hero-section {
+  background-color: rgba(28, 28, 28, 0.20000000298023224);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 64px;
+  height: 400px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-52 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  width: 850px;
+  min-
+}
+.features-overview {
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 64px;
+  
+  min-width: 50px;
+  min-height: 50px;
+  max-
+  max-
+  flex-shrink: 0;
+}
+.frame-51 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 64px;
+  position: relative;
+  width: 1400px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-41 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-50 {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 64px;
+  position: relative;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-45 {
+  background-color: rgba(189, 189, 189, 1);
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  padding: 32px;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.rectangle-6 {
+  background-color: rgba(33, 33, 33, 1);
+  position: relative;
+  width: 100px;
+  height: 100px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-44 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-42 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.feature-section-1 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 64px;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+  max-
+  max-
+  flex-shrink: 0;
+}
+.frame-55 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 64px;
+  position: relative;
+  width: 1400px;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.rectangle-9 {
+  background-color: rgba(34, 34, 34, 1);
+  position: relative;
+  width: 600px;
+  height: 400px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-54 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+}
+.frame-53 {
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.blogs-section {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 64px;
+  
+  
+  min-
+  min-
+  max-
+  max-
+  flex-shrink: 0;
+}
+.frame-11 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 64px;
+  position: relative;
+  width: 1400px;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-5 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-10 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 64px;
+  position: relative;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-7 {
+  background-color: rgba(224, 224, 224, 1);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.rectangle-2 {
+  background-color: rgba(15, 14, 14, 1);
+  position: relative;
+  
+  height: 192px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.frame-6 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  padding: 32px;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.plans {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+}
+.feature-set-1 {
+  background-color: rgba(28, 28, 28, 0.20000000298023224);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  padding: 32px;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.frame-21 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.frame-18 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  width: 262px;
+  
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.faq {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 64px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.accordion {
+  overflow-y: auto;
+  position: relative;
+}
+.expansion-panel-2 {
+  height: max-content;
+}
+.avatar {
+  background-color: #BDBDBDFF;
+  --background: none;
+  position: relative;
+}
+.content {
+  color: #000000FF;
+  position: relative;
+  
+  height: max-content;
+  min-width: 50px;
+}
+.content_1 {
+  text-align: center;
+  color: #000000FF;
+  position: relative;
+  
+  height: max-content;
+  min-width: 50px;
+}
+.create-account {
+  text-align: center;
+  color: #FFFFFFFF;
+  position: relative;
+  
+  height: max-content;
+  min-width: 50px;
+}
+.content_2 {
+  text-align: center;
+  color: #000000FF;
+  position: relative;
+  height: max-content;
+  min-width: 1400px;
+}
+.icon-7 {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: #424242FF;
+  position: relative;
+  min-width: min-content;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-etiam-eu-turpis-molestie-dictum-est-a-mattis-tellus-sed-dignissim-metus-nec-fringilla-accumsan-risus-sem-sollicitudin-lacus-ut-interdum-tellus-elit-sed-risus-1 {
+  color: #000000FF;
+  position: relative;
+  height: max-content;
+  min-width: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-24 {
+  text-align: center;
+  color: #000000FF;
+  position: relative;
+  
+  height: max-content;
+  min-width: 1400px;
+}
+.button {
+  color: #616161FF;
+  background-color: #E0E0E0FF;
+  position: relative;
+}
